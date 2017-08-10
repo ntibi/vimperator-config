@@ -1,0 +1,29 @@
+
+" faster scroll
+noremap j 4j
+noremap k 4k
+
+" JK to navigate in tabs <>
+noremap K <C-Tab>
+noremap J <C-S-Tab>
+
+" x:close tab, X:unclose tab
+noremap x d
+noremap X u
+
+" e:goto url, E:goto url in new tab, t:open new blank tab
+noremap e o
+noremap E t
+noremap t <C-t>
+
+" u:undo, U:redo
+noremap u <BS>
+noremap U <S-BS>
+
+" jump to url bar
+noremap o <C-k>
+
+set hintchars=ajsklhdfgweoincvb
+
+source! ~/.vimperatorrc.local
+
