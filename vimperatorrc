@@ -1,3 +1,9 @@
+""" OPTIONS:
+
+set hintchars=ajsklhdfgweoincvb
+
+
+""" MAPS:
 
 " faster scroll
 noremap j 4j
@@ -23,7 +29,15 @@ noremap U <S-BS>
 " jump to url bar
 noremap o <C-k>
 
-set hintchars=ajsklhdfgweoincvb
+" half page scroll
+noremap <C-j> <C-f>
+noremap <C-k> <C-b>
+
+
+""" VISUALS:
+
+hi CmdLine background: #222222; color: #cccccc;
+
 
 source! ~/.vimperatorrc.local
 
